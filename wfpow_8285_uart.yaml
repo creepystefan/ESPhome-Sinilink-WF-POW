@@ -39,11 +39,11 @@ captive_portal:
 
 binary_sensor:
   - platform: gpio
+    name: "GPIO4 Taste"
     pin:
       number: GPIO4
       mode: INPUT_PULLUP
       inverted: True
-    name: "GPIO4 Taste"
       
 switch:
   - platform: gpio

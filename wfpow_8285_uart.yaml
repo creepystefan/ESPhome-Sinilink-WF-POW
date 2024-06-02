@@ -32,10 +32,14 @@ wifi:
     ssid: "Xy-Wfpow Fallback Hotspot"
     password: "cNrHDxhh7P6t"
 
-captive_portal:
-
 # GPIO 1 = TX
 # GPIO 3 = RX
+uart:
+  tx_pin: GPIO1
+  rx_pin: GPIO3
+  baud_rate: 9600
+
+captive_portal:
 
 binary_sensor:
   - platform: gpio

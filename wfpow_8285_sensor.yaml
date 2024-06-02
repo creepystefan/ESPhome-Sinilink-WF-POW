@@ -44,11 +44,11 @@ binary_sensor:
     name: "GPIO3 RX"
   
   - platform: gpio
+    name: "GPIO4 Taste"
     pin:
       number: GPIO4
       mode: INPUT_PULLUP
       inverted: True
-    name: "GPIO4 Taste"
     
     
 switch:

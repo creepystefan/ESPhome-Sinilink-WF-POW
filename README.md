@@ -1,4 +1,4 @@
-# ESPhome-Sinilink-WF-POW
+# ESPhome-Sinilink-WFPOW
 # ESP Modbus Uart Controller
 * https://templates.blakadder.com/sinilink_XY-WFPOW.html
 

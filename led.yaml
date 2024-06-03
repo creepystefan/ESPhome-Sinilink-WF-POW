@@ -1,1 +1,6 @@
-
+light:
+  - platform: status_led
+    name: "LED state"
+    pin:
+      number: GPIO2
+      inverted: true

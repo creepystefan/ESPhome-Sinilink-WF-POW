@@ -8,4 +8,5 @@
 * GPIO 4 = mechanical Button
 
 ![entity](picture/sinilink_XY-WFPOW_pinout.jpg "entity")
+![entity](picture/cable.jpg "entity")
 

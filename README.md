@@ -7,5 +7,5 @@
 * GPIO 2 = inverted LED
 * GPIO 4 = mechanical Button
 
-![climate entity](climate.png "climate entity")
-!picture(sinilink_XY-WFPOW_pinout.jpg)
+![climate entity](picture/sinilink_XY-WFPOW_pinout.jpg "climate entity")
+

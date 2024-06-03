@@ -1,3 +1,8 @@
+# GPIO 1 = TX
+# GPIO 3 = RX
+# GPIO 2 = inverted LED
+# GPIO 4 = mechanical Button
+
 esphome:
   name: xy-wfpow
   friendly_name: XY-WFPOW
@@ -33,8 +38,6 @@ wifi:
     ssid: "Xy-Wfpow Fallback Hotspot"
     password: "cNrHDxhh7P6t"
 
-# GPIO 1 = TX
-# GPIO 3 = RX
 uart:
   tx_pin: GPIO1
   rx_pin: GPIO3

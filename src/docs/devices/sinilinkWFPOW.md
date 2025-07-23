@@ -24,8 +24,8 @@ difficulty: 3, 4
 | IO0       | flash     | to GND to flash
 | RST       | Reset     | Restart esp
 
-![entity](picture/sinilink_XY-WFPOW_pinout.jpg "entity")
-![entity](picture/cable.png "entity")
+![alt text](cable.png "Image Hover Text")
+![alt text](sinilink_XY-WFPOW_pinout.jpg "Image Hover Text")
 
 # Useful links
 *  [Tasmota Sinilink XY-WFPOW](https://templates.blakadder.com/sinilink_XY-WFPOW.html)

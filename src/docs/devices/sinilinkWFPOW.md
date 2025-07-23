@@ -7,9 +7,18 @@ board: esp8266
 project-url: https://github.com/creepystefan/ESPhome-Sinilink-WF-POW
 difficulty: 3, 4
 ---
+
 # Sinilink-WFPOW
 #  Modbus Uart Controller
 
+```yaml
+esp8266:
+  board: esp8285
+
+# if use GPIO1 and GPIO3 ( TX and RX ) logger off (baudrate: 0)
+logger:
+  baud_rate: 0
+```
 
 
 | Pin   | Name      | Function
@@ -27,6 +36,43 @@ difficulty: 3, 4
 ![alt text](cable.png "Image Hover Text")
 ![alt text](sinilink_XY-WFPOW_pinout.jpg "Image Hover Text")
 
+#Example for UART on GPIO1 GPIO3
+```yaml
+#Example for UART on GPIO1 GPIO3
+esp8266:
+  board: esp8285
+
+# if use GPIO1 and GPIO3 ( TX and RX ) logger off (baudrate: 0)
+logger:
+  baud_rate: 0
+
+uart:
+  - id: uart_bus
+    tx_pin: GPIO1
+    rx_pin: GPIO3
+    baud_rate: BAUDRATE
+    debug:
+      direction: BOTH
+      dummy_receiver: true
+
+binary_sensor:
+  - platform: gpio
+    name: "GPIO4 Taste"
+    pin:
+      number: GPIO4
+      mode: INPUT_PULLUP
+      inverted: True
+      
+switch:
+  - platform: gpio
+    pin: GPIO2
+    inverted: true
+    name: "GPIO2 LED inverted"
+```
+
 # Useful links
 *  [Tasmota Sinilink XY-WFPOW](https://templates.blakadder.com/sinilink_XY-WFPOW.html)
   
+
+
+

@@ -7,5 +7,5 @@ board: esp8266
 project-url: https://github.com/creepystefan/ESPhome-Sinilink-WF-POW
 difficulty: 3, 4
 ---
-Kopie
-![alt text](your-image.jpg "Image Hover Text")
+
+![alt text](cable.png "Image Hover Text")

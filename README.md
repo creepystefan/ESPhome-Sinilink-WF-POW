@@ -12,9 +12,13 @@
 
 | Pin   | Name      | Function
 | ----- | --------- | ----------------------------- 
-| GPIO1     | TX       | UART TX                     
-| GPIO2     | LED    | inverted LED                  
-| GPIO3     | OCS_OUT   | -                          
-| GPIO4     | NRST      | NRST                       
-| 5V     | VDDA      | 5V Power Input                          
-| GND     | GND       | Board Ground                   
+| GPIO1     | TX        | UART TX                     
+| GPIO2     | LED       | inverted LED                  
+| GPIO3     | RX        | UART RX                          
+| GPIO4     | Button    | meachnical Button                      
+| 5V        | VDD       | 5V Power Input regulator to 3.3V                          
+| GND       | GND       | Board Ground
+| 3.3V      | VDDA      | 3.3V alternative                      
+|           |           |                            
+
+

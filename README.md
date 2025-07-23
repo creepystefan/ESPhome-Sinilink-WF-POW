@@ -23,8 +23,8 @@ logger:
 | IO0       | flash     | to GND to flash
 | RST       | Reset     | Restart esp
 
-![entity](picture/sinilink_XY-WFPOW_pinout.jpg "entity")
-![entity](picture/cable.png "entity")
+![alt text](src/docs/devices/cable.png "Image Hover Text")
+![alt text](src/docs/devices/sinilink_XY-WFPOW_pinout.jpg "Image Hover Text")
 
 #Example for UART on GPIO1 GPIO3
 ```yaml
@@ -58,6 +58,15 @@ switch:
     pin: GPIO2
     inverted: true
     name: "GPIO2 LED inverted"
+```
+```yaml
+# LED GPIO2 can use by switch: or light:
+light:
+  - platform: status_led
+    name: "LED state"
+    pin:
+      number: GPIO2
+      inverted: true
 ```
 
 # Useful links

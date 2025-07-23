@@ -69,6 +69,15 @@ switch:
     inverted: true
     name: "GPIO2 LED inverted"
 ```
+```yaml
+# LED GPIO2 can use by switch: or light:
+light:
+  - platform: status_led
+    name: "LED state"
+    pin:
+      number: GPIO2
+      inverted: true
+```
 
 # Useful links
 *  [Tasmota Sinilink XY-WFPOW](https://templates.blakadder.com/sinilink_XY-WFPOW.html)

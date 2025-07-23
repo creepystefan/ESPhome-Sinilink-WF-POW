@@ -23,5 +23,5 @@
 ![entity](picture/cable.png "entity")
 
 # Useful links
-*  - [sinilink](https://templates.blakadder.com/sinilink_XY-WFPOW.html)
+*  [Tasmota Sinilink XY-WFPOW](https://templates.blakadder.com/sinilink_XY-WFPOW.html)
   

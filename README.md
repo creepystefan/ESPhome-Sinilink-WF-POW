@@ -22,3 +22,6 @@
 ![entity](picture/sinilink_XY-WFPOW_pinout.jpg "entity")
 ![entity](picture/cable.png "entity")
 
+# Useful links
+*  - [sinilink](https://templates.blakadder.com/sinilink_XY-WFPOW.html)
+  

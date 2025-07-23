@@ -9,3 +9,5 @@ difficulty: 3, 4
 ---
 
 ![alt text](cable.png "Image Hover Text")
+![alt text](sinilink_XY-WFPOW_pinout.jpg "Image Hover Text")
+

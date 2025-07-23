@@ -1,6 +1,14 @@
 # Sinilink-WFPOW
 #  Modbus Uart Controller
 
+```yaml
+esp8266:
+  board: esp8285
+
+# if use GPIO1 and GPIO3 ( TX and RX ) logger off (baudrate: 0)
+logger:
+  baud_rate: 0
+```
 
 
 | Pin   | Name      | Function

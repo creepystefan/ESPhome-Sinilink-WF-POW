@@ -10,11 +10,11 @@
 ![entity](picture/sinilink_XY-WFPOW_pinout.jpg "entity")
 ![entity](picture/cable.png "entity")
 
-| Pin   | Name      | Function - Shelly Dimmer 1    |
-| ----- | --------- | ----------------------------- |
+| Pin   | Name      | Function
+| ----- | --------- | ----------------------------- 
 | GPIO1     | TX       | UART TX                     
 | GPIO2     | LED    | inverted LED                  
 | GPIO3     | OCS_OUT   | -                          
 | GPIO4     | NRST      | NRST                       
-| 5V     | VDDA      | 5V Power Input                           |
-| GND     | GND       | Board Ground                   |
+| 5V     | VDDA      | 5V Power Input                          
+| GND     | GND       | Board Ground                   

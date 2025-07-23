@@ -1,13 +1,6 @@
 # Sinilink-WFPOW
 #  Modbus Uart Controller
 
----
-title: Sonoff S20
-date-published: 2019-10-11
-type: plug
-standard: uk, us
----
-
 ```yaml
 esp8266:
   board: esp8285

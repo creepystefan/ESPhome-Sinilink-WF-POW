@@ -10,3 +10,11 @@
 ![entity](picture/sinilink_XY-WFPOW_pinout.jpg "entity")
 ![entity](picture/cable.png "entity")
 
+| Pin   | Name      | Function - Shelly Dimmer 1    | Function - Shelly Dimmer 2    | Pin type |
+| ----- | --------- | ----------------------------- | ----------------------------- | - |
+| GPIO     | VDD       | 3V3                           | 3V3                           |  |
+| 2     | OCS_IN    | -                             | -                             |  |
+| 3     | OCS_OUT   | -                             | -                             |  |
+| 4     | NRST      | NRST                          | NRST                          |  |
+| 5     | VDDA      | 3V3                           | 3V3                           |  |
+| 6     | PA0       | CF1 HLW8012                   | -                             | Input  |

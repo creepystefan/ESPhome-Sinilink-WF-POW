@@ -7,12 +7,9 @@
 * GPIO 2 = inverted LED
 * GPIO 4 = mechanical Button
 
-![entity](picture/sinilink_XY-WFPOW_pinout.jpg "entity")
-![entity](picture/cable.png "entity")
-
 | Pin   | Name      | Function
 | ----- | --------- | ----------------------------- 
-| GPIO1     | TX        | UART TX                     
+| GPIO1     | TX        | UART TX                 
 | GPIO2     | LED       | inverted LED                  
 | GPIO3     | RX        | UART RX                          
 | GPIO4     | Button    | meachnical Button                      
@@ -22,5 +19,6 @@
 | IO0       | flash     | to GND to flash
 | RST       | Reset     | Restart esp
 
-
+![entity](picture/sinilink_XY-WFPOW_pinout.jpg "entity")
+![entity](picture/cable.png "entity")
 

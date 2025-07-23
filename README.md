@@ -1,5 +1,5 @@
-# ESPhome-Sinilink-WFPOW
-# ESP Modbus Uart Controller
+# Sinilink-WFPOW
+#  Modbus Uart Controller
 
 
 

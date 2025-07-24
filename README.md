@@ -26,8 +26,9 @@ logger:
 | 3.3V      | VDDA      | 3.3V alternative                      
 | IO0       | flash     | to GND to flash
 | RST       | Reset     | Restart esp
-
-
+| GND       | GND       | Board Ground
+| GPIO1     | TXD       | UART0 TX
+| GPIO3     | RXD       | UART0 RX  
 
 
 ![alt text](src/docs/devices/cable.png "Image Hover Text")

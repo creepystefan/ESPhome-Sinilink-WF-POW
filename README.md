@@ -11,15 +11,17 @@ logger:
 ```
 
 
-| Pin-Connector   | Name      | Function
+| Pin-Connector   | Name      | Function |
 | ----- | --------- | ----------------------------- 
 | GPIO1     | TXD       | UART0 TX
 | GPIO3     | RXD       | UART0 RX  
+| 5V        | VDD       | 5V Power Input regulator to 3.3V                          
+| GND       | GND       | Board Ground
+
+| ----- | --------- | ----------------------------- 
 | Pin-onboard
 | GPIO2     | LED       | inverted LED   (( UART1 TX ))            
 | GPIO4     | Button    | meachnical Button                      
-| 5V        | VDD       | 5V Power Input regulator to 3.3V                          
-| GND       | GND       | Board Ground
 | 3.3V      | VDDA      | 3.3V alternative                      
 | IO0       | flash     | to GND to flash
 | RST       | Reset     | Restart esp

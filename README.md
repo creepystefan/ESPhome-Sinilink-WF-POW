@@ -23,6 +23,8 @@ logger:
 | IO0       | flash     | to GND to flash
 | RST       | Reset     | Restart esp
 
+
+
 ![alt text](src/docs/devices/cable.png "Image Hover Text")
 ![alt text](src/docs/devices/sinilink_XY-WFPOW_pinout.jpg "Image Hover Text")
 

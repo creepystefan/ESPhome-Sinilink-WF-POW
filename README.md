@@ -13,9 +13,9 @@ logger:
 
 | Pin   | Name      | Function
 | ----- | --------- | ----------------------------- 
-| GPIO1     | TXD       | UART TX                 
-| GPIO2     | LED       | inverted LED                  
-| GPIO3     | RXD       | UART RX                          
+| GPIO1     | TXD       | UART0 TX                 
+| GPIO2     | LED       | inverted LED   (( UART1 TX ))            
+| GPIO3     | RXD       | UART0 RX                          
 | GPIO4     | Button    | meachnical Button                      
 | 5V        | VDD       | 5V Power Input regulator to 3.3V                          
 | GND       | GND       | Board Ground

@@ -17,7 +17,7 @@ logger:
 | GPIO3     | RXD       | UART0 RX  
 | 5V        | VDD       | 5V Power Input regulator to 3.3V                          
 | GND       | GND       | Board Ground
-| ----- | --------- | ----------------------------- 
+
 
 | Pin-OnBoard   | Name      | Function |
 | ----- | --------- | ----------------------------- 
@@ -26,7 +26,7 @@ logger:
 | 3.3V      | VDDA      | 3.3V alternative                      
 | IO0       | flash     | to GND to flash
 | RST       | Reset     | Restart esp
-| ----- | --------- | -----------------------------
+
 
 
 
